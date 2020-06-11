@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  
+  }
+  html {
+    background-color: #FCFCFC;
+    font-family: Arial;
+    font-size: 18px;
+  }
+  
+  #content {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  #content h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .simon-container {
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  
+  .simon-container .simon-button {
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+  
+  .simon-buttongreen {
+    background-color: #21BA45;
+  }
+  
+  .simon-buttongreen:active {
+    background-color: lightgreen;
+  }
+  
+  .simon-buttonred {
+    background-color: #DB2828;
+  }
+  
+  .simon-buttonred:active {
+    background-color: tomato;
+  }
+  
+  .simon-buttonyellow {
+    background-color: #FBBD08;
+  }
+  
+  .simon-buttonyellow:active {
+    background-color: #FFFF99;
+  }
+  
+  .simon-buttonblue {
+    background-color: #2185D0;
+  }
+  
+  .simon-buttonblue:active {
+    background-color: lightblue;
+  }
+  
+  .light-up-green {
+    background-color: lightgreen!important;
+  }
+  .light-up-red {
+    background-color: tomato!important;
+  }
+  .light-up-yellow {
+    background-color: #FFFF99!important;
+  }
+  .light-up-blue {
+    background-color: lightblue!important;
+  }
